@@ -1,6 +1,8 @@
 # TrustHandoff × MiroFish Demo
 
-Minimal proof-of-concept showing TrustHandoff attached to a real MiroFish runtime boundary.
+> Hooks into MiroFish `simulation_runner._read_action_log` (action ingestion boundary)
+
+Minimal proof-of-concept showing TrustHandoff attached to a real MiroFish runtime.
 
 This demo instruments MiroFish's action log processing path and shows:
 
